@@ -17,6 +17,7 @@ fun main(args: Array<String>) {
     var a  = 123
     val b = 1234;
     print(a);
+    println(b);
     print(a);
     val c = '1'
     println(c);
