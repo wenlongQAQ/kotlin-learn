@@ -10,17 +10,8 @@ data class Shape(private var a : Int,private var b : Int){
 
 
 fun main(args: Array<String>) {
-    var testNull : Int?;
-    var shape = Shape(1,1)
-    shape.setA(2);
-    println(shape.getA())
-    var a  = 123
-    val b = 1234;
-    print(a);
-    println(b);
-    print(a);
-    val c = '1'
-    println(c);
-    println("${b + 1}");
+    val map = mapOf("a" to 1, "b" to 2, "c" to 3)
+    val key : String = "a";
+    println(map[key])
 
 }
